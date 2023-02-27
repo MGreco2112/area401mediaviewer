@@ -12,7 +12,7 @@ import java.io.File;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class HelloController implements Initializable {
+public class MediaController implements Initializable {
 
     @FXML
     private MediaView mediaView;
@@ -34,6 +34,10 @@ public class HelloController implements Initializable {
 
         mediaPlayer = new MediaPlayer(media);
         mediaView.setMediaPlayer(mediaPlayer);
+
+        playMedia();
+
+
     }
 
     public void playMedia() {

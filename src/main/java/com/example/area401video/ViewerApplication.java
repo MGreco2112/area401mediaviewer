@@ -2,7 +2,6 @@ package com.example.area401video;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Group;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
@@ -10,13 +9,12 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 import java.io.FileInputStream;
-import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class ViewerApplication extends Application {
     @Override
     public void start(Stage stage) throws Exception { //start method called by launch method in main, takes Stage as parameter
         //stage generated and passed in from launch method via launchimplementation call
-        Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml")); //instantiates new Group object, which is a node for the scene
+        Parent root = FXMLLoader.load(getClass().getResource("media-view.fxml")); //instantiates new Group object, which is a node for the scene
         Scene scene = new Scene(root,Color.BLACK); //instantiates new Scene for the stage, node is passed into scene constructor
         //width and height variables passed into scene constructor
         //color argument for constructor can change the background of the scene (default state is white)
