@@ -28,7 +28,7 @@ public class HelloController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        file = new File("src/sams song.mp4");
+        file = new File("sams song.mp4");
         media = new Media(file.toURI().toString());
 
     }
