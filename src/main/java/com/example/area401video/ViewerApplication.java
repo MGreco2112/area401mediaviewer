@@ -19,7 +19,7 @@ public class ViewerApplication extends Application {
         //width and height variables passed into scene constructor
         //color argument for constructor can change the background of the scene (default state is white)
         stage.setTitle("Area 401"); //sets title for the window when stage is shown
-        Image icon = new Image(new FileInputStream("src/logo.jpg")); //instantiates Image object from FileInputStream local path of image
+        Image icon = new Image(new FileInputStream("logo.jpg")); //instantiates Image object from FileInputStream local path of image
         stage.getIcons().add(icon); //adds image as icon to Stage icons
         stage.setResizable(false); //set resizable ability by user (default is true)
         stage.setScene(scene); //scene is set onto the stage
