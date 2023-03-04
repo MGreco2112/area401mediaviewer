@@ -7,8 +7,8 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="640.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.area401video.MediaController">
    <children>
       <MediaView fx:id="mediaView" fitHeight="480.0" fitWidth="640.0" />
-      <Button fx:id="playButton" layoutX="110.0" layoutY="515.0" mnemonicParsing="false" onAction="#playMedia" style="-fx-font-family: &quot;monospace&quot;; -fx-font-weight: bold; -fx-background-color: #228b22; -fx-font-style: italic;" text="PLAY" />
-      <Button fx:id="pauseButton" layoutX="294.0" layoutY="515.0" mnemonicParsing="false" onAction="#pauseMedia" style="-fx-font-family: &quot;monospace&quot;; -fx-font-weight: bold; -fx-background-color: #228b22; -fx-font-style: italic;" text="PAUSE" />
-      <Button fx:id="resetButton" layoutX="478.0" layoutY="515.0" mnemonicParsing="false" onAction="#resetMedia" style="-fx-font-family: &quot;monospace&quot;; -fx-font-weight: bold; -fx-background-color: #228b22; -fx-font-style: italic;" text="RESET" />
+      <Button fx:id="playButton" layoutX="110.0" layoutY="515.0" mnemonicParsing="false" onAction="#playMedia" style="-fx-font-family: &quot;monospace&quot;; -fx-font-weight: bold; -fx-background-color: #00ff00; -fx-font-style: italic;" text="PLAY" />
+      <Button fx:id="pauseButton" layoutX="294.0" layoutY="515.0" mnemonicParsing="false" onAction="#pauseMedia" style="-fx-font-family: &quot;monospace&quot;; -fx-font-weight: bold; -fx-background-color: #00ff00; -fx-font-style: italic;" text="PAUSE" />
+      <Button fx:id="resetButton" layoutX="478.0" layoutY="515.0" mnemonicParsing="false" onAction="#resetMedia" style="-fx-font-family: &quot;monospace&quot;; -fx-font-weight: bold; -fx-background-color: #00ff00; -fx-font-style: italic;" text="RESET" />
    </children>
 </AnchorPane>
